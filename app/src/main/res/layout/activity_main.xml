@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#008577">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:text="Топ 10 самых красивых \n животных мира"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl1">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/one"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Песец"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl2">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/two"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Снежный барс"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl3">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/three"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Ахалтекинская лошадь"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl4">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/four"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Фенек"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl5">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/five"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Манул"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl6">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/six"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Утка Мандаринка"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl7">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/seven"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Мальтийский голубой тигр"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl8">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/eight3"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Тигровая акула"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl9">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/nine"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Полярный волк"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+            <FrameLayout
+                style="@style/miniBlocks"
+                android:onClick="bl10">
+
+                <ImageView
+                    style="@style/images"
+                    android:src="@drawable/ten2"/>
+                <TextView
+                    style="@style/title"
+                    android:text="Большая панда"
+                    />
+            </FrameLayout>
+            <!--111111111111111111111111111111111111111111111111111111-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
